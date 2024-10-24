@@ -1,0 +1,5 @@
+payload:
+  - 'zconnect.cn'
+  - 'dispatch-cs.zenithspace.net'
+  - 'api.zenithspace.net'
+  - 'proxy.zenithspace.net'
