@@ -1,0 +1,1065 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: rule
+log-level: silent
+external-controller: 0.0.0.0:9090
+secret: ''
+proxies:
+# TotoroCloud
+- name: 香港 TotoroCloud-01
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53401
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-02
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53402
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-03
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53403
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-04
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53404
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-05
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53405
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-06
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53406
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-07
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53407
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-08
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53408
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-09
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53409
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-10
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53410
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-11
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53411
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-12
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53412
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-13
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53413
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-14
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53414
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-15
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53415
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-16
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53416
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-17
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53417
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-18
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53418
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-19
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53419
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 香港 TotoroCloud-20
+  type: trojan
+  server: lmnode-ixd3fh2v5uqlv3z-lmhk.lma1b2.com
+  port: 53420
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+  skip-cert-verify: true
+- name: 台湾 TotoroCloud-01
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50021
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-02
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50022
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-03
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50023
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-04
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50024
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-05
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50025
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-06
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50026
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-07
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50027
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-08
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50028
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-09
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50029
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 台湾 TotoroCloud-10
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtw.lma1b2.com
+  port: 50030
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-01
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50031
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-02
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50032
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-03
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50033
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-04
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50034
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-05
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50035
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-06
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50036
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-07
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50037
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-08
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50038
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-09
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50039
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 新加坡 TotoroCloud-10
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmsg.lma1b2.com
+  port: 50040
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-01
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50041
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-02
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50042
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-03
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50043
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-04
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50044
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-05
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50045
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-06
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50046
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-07
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50047
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-08
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50048
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-09
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50049
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 日本 TotoroCloud-10
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmjp.lma1b2.com
+  port: 50050
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-01
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50051
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-02
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50052
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-03
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50053
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-04
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50054
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-05
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50055
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-06
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50056
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-07
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50057
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-08
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50058
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-09
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50059
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 美国 TotoroCloud-10
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmus.lma1b2.com
+  port: 50060
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 马来西亚 TotoroCloud-01
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
+  port: 50066
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 马来西亚 TotoroCloud-02
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
+  port: 50067
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 马来西亚 TotoroCloud-03
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
+  port: 50068
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 马来西亚 TotoroCloud-04
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
+  port: 50069
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 马来西亚 TotoroCloud-05
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
+  port: 50070
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 土耳其 TotoroCloud-01
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtr.lma1b2.com
+  port: 50096
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+- name: 阿根廷 TotoroCloud-01
+  type: ss
+  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmar.lma1b2.com
+  port: 50098
+  cipher: aes-128-gcm
+  password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
+  udp: true
+# RealNode
+- name: 香港 RealNode-HK01
+  type: vmess
+  server: cm.guguyun.pw
+  port: 31000
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 RealNode-HK02
+  type: vmess
+  server: 111.63.184.38
+  port: 31000
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 RealNode-HK03
+  type: vmess
+  server: cm2.xcone.xyz
+  port: 29782
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 RealNode-HK04
+  type: vmess
+  server: ct2.xcone.xyz
+  port: 29020
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 香港 RealNode-HK05
+  type: vmess
+  server: cm.guguyun.pw
+  port: 31000
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 日本 RealNode-JP01｜ChatGPT
+  type: vmess
+  server: cm.guguyun.pw
+  port: 32000
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 日本 RealNode-JP02｜ChatGPT
+  type: vmess
+  server: cm2.xcone.xyz
+  port: 25261
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 日本 RealNode-JP03｜ChatGPT
+  type: vmess
+  server: 111.63.184.38
+  port: 31003
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 日本 RealNode-JP04｜ChatGPT
+  type: vmess
+  server: ct2.xcone.xyz
+  port: 21062
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 日本 RealNode-JP05｜ChatGPT
+  type: vmess
+  server: cm.guguyun.pw
+  port: 32000
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 台湾 RealNode-TW01｜ChatGPT
+  type: vmess
+  server: cm.guguyun.pw
+  port: 31015
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 台湾 RealNode-TW02｜ChatGPT
+  type: vmess
+  server: 111.63.184.38
+  port: 31015
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 台湾 RealNode-TW03｜ChatGPT
+  type: vmess
+  server: cm2.xcone.xyz
+  port: 43792
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 台湾 RealNode-TW04｜ChatGPT
+  type: vmess
+  server: ct2.xcone.xyz
+  port: 56146
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 新加坡 RealNode-SG01
+  type: vmess
+  server: cm.guguyun.pw
+  port: 32002
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 新加坡 RealNode-SG02
+  type: vmess
+  server: cm2.xcone.xyz
+  port: 42472
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 新加坡 RealNode-SG03
+  type: vmess
+  server: 111.63.184.38
+  port: 31006
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 新加坡 RealNode-SG04
+  type: vmess
+  server: ct2.xcone.xyz
+  port: 22030
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 新加坡 RealNode-SG05
+  type: vmess
+  server: cm.guguyun.pw
+  port: 32002
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 美国 RealNode-US01｜ChatGPT
+  type: vmess
+  server: 111.63.184.38
+  port: 31014
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 美国 RealNode-US02
+  type: vmess
+  server: cm2.xcone.xyz
+  port: 37687
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 美国 RealNode-US03
+  type: vmess
+  server: 111.63.184.38
+  port: 31009
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 美国 RealNode-US04
+  type: vmess
+  server: cm.guguyun.pw
+  port: 32005
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 美国 RealNode-US05
+  type: vmess
+  server: ct2.xcone.xyz
+  port: 27693
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 澳大利亚 RealNode-AU01
+  type: vmess
+  server: 111.63.184.38
+  port: 31013
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 澳大利亚 RealNode-AU02
+  type: vmess
+  server: cm.guguyun.pw
+  port: 31013
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 澳大利亚 RealNode-AU03
+  type: vmess
+  server: 111.63.184.38
+  port: 31013
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 土耳其 RealNode-TR01
+  type: vmess
+  server: 111.63.184.38
+  port: 31016
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 韩国 RealNode-KR01
+  type: vmess
+  server: 111.63.184.38
+  port: 31017
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 德国 RealNode-DE01
+  type: vmess
+  server: 111.63.184.38
+  port: 31018
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 英国 RealNode-GB01
+  type: vmess
+  server: 111.63.184.38
+  port: 31019
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 加拿大 RealNode-CA01
+  type: vmess
+  server: 111.63.184.38
+  port: 31020
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: 印度 RealNode-IN01
+  type: vmess
+  server: 111.63.184.38
+  port: 31021
+  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+
+proxy-groups:
+- name: Manual-Select
+  type: select
+  proxies:
+    - Auto-Select
+    - Germany
+    - UK
+    - Australia
+    - Korea
+    - Taiwan
+    - USA
+    - Canada
+    - Malaysia
+    - Singapore
+    - Hongkong
+    - Japan
+    - India
+    - Turkey
+    
+- name: Auto-Select
+  type: fallback
+  disable-udp: false
+  url: "http://www.gstatic.com/generate_204"
+  interval: 43200
+  proxies:
+    - Germany
+    - UK
+    - Australia
+    - Korea
+    - Taiwan
+    - USA
+    - Canada
+    - Malaysia
+    - Singapore
+    - Hongkong
+    - Japan
+    - India
+    - Turkey
+- name: Hongkong
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 香港 TotoroCloud-01
+  - 香港 TotoroCloud-02
+  - 香港 TotoroCloud-03
+  - 香港 TotoroCloud-04
+  - 香港 TotoroCloud-05
+  - 香港 TotoroCloud-06
+  - 香港 TotoroCloud-07
+  - 香港 TotoroCloud-08
+  - 香港 TotoroCloud-09
+  - 香港 TotoroCloud-10
+  - 香港 TotoroCloud-11
+  - 香港 TotoroCloud-12
+  - 香港 TotoroCloud-13
+  - 香港 TotoroCloud-14
+  - 香港 TotoroCloud-15
+  - 香港 TotoroCloud-16
+  - 香港 TotoroCloud-17
+  - 香港 TotoroCloud-18
+  - 香港 TotoroCloud-19
+  - 香港 TotoroCloud-20
+  - 香港 RealNode-HK01
+  - 香港 RealNode-HK02
+  - 香港 RealNode-HK03
+  - 香港 RealNode-HK04
+  - 香港 RealNode-HK05
+- name: Taiwan
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 台湾 TotoroCloud-01
+  - 台湾 TotoroCloud-02
+  - 台湾 TotoroCloud-03
+  - 台湾 TotoroCloud-04
+  - 台湾 TotoroCloud-05
+  - 台湾 TotoroCloud-06
+  - 台湾 TotoroCloud-07
+  - 台湾 TotoroCloud-08
+  - 台湾 TotoroCloud-09
+  - 台湾 TotoroCloud-10
+  - 台湾 RealNode-TW01｜ChatGPT
+  - 台湾 RealNode-TW02｜ChatGPT
+  - 台湾 RealNode-TW03｜ChatGPT
+  - 台湾 RealNode-TW04｜ChatGPT
+- name: Singapore
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 新加坡 TotoroCloud-01
+  - 新加坡 TotoroCloud-02
+  - 新加坡 TotoroCloud-03
+  - 新加坡 TotoroCloud-04
+  - 新加坡 TotoroCloud-05
+  - 新加坡 TotoroCloud-06
+  - 新加坡 TotoroCloud-07
+  - 新加坡 TotoroCloud-08
+  - 新加坡 TotoroCloud-09
+  - 新加坡 TotoroCloud-10
+  - 新加坡 RealNode-SG01
+  - 新加坡 RealNode-SG02
+  - 新加坡 RealNode-SG03
+  - 新加坡 RealNode-SG04
+  - 新加坡 RealNode-SG05
+- name: Japan
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 日本 TotoroCloud-01
+  - 日本 TotoroCloud-02
+  - 日本 TotoroCloud-03
+  - 日本 TotoroCloud-04
+  - 日本 TotoroCloud-05
+  - 日本 TotoroCloud-06
+  - 日本 TotoroCloud-07
+  - 日本 TotoroCloud-08
+  - 日本 TotoroCloud-09
+  - 日本 TotoroCloud-10
+  - 日本 RealNode-JP01｜ChatGPT
+  - 日本 RealNode-JP02｜ChatGPT
+  - 日本 RealNode-JP03｜ChatGPT
+  - 日本 RealNode-JP04｜ChatGPT
+  - 日本 RealNode-JP05｜ChatGPT
+- name: USA
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 美国 TotoroCloud-01
+  - 美国 TotoroCloud-02
+  - 美国 TotoroCloud-03
+  - 美国 TotoroCloud-04
+  - 美国 TotoroCloud-05
+  - 美国 TotoroCloud-06
+  - 美国 TotoroCloud-07
+  - 美国 TotoroCloud-08
+  - 美国 TotoroCloud-09
+  - 美国 TotoroCloud-10
+  - 美国 RealNode-US01｜ChatGPT
+  - 美国 RealNode-US02
+  - 美国 RealNode-US03
+  - 美国 RealNode-US04
+  - 美国 RealNode-US05
+- name: Malaysia
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 马来西亚 TotoroCloud-01
+  - 马来西亚 TotoroCloud-02
+  - 马来西亚 TotoroCloud-03
+  - 马来西亚 TotoroCloud-04
+  - 马来西亚 TotoroCloud-05
+- name: Australia
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 澳大利亚 RealNode-AU01
+  - 澳大利亚 RealNode-AU02
+  - 澳大利亚 RealNode-AU03
+- name: Turkey
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 土耳其 TotoroCloud-01
+  - 土耳其 RealNode-TR01
+- name: Korea
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 韩国 RealNode-KR01
+- name: Germany
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 德国 RealNode-DE01
+- name: UK
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 英国 RealNode-GB01
+- name: Canada
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 加拿大 RealNode-CA01
+- name: India
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 43200
+  proxies:
+  - 印度 RealNode-IN01
+
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+  zconnect:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/ICH-BIN-HXM/VPN_Config/refs/heads/main/Zspace.txt"
+    path: ./ruleset/zconnect.yaml
+    interval: 86400
+rules:
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,google,Auto-Select
+  - RULE-SET,proxy,Auto-Select
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,telegramcidr,Auto-Select
+  - RULE-SET,zconnect,DIRECT
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Auto-Select
