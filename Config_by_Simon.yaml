@@ -766,7 +766,7 @@ proxy-groups:
   type: fallback
   disable-udp: false
   url: "http://www.gstatic.com/generate_204"
-  interval: 43200
+  interval: 600
   proxies:
     - Germany
     - UK
@@ -784,7 +784,7 @@ proxy-groups:
 - name: Hongkong
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 香港 TotoroCloud-01
   - 香港 TotoroCloud-02
@@ -814,7 +814,7 @@ proxy-groups:
 - name: Taiwan
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 台湾 TotoroCloud-01
   - 台湾 TotoroCloud-02
@@ -833,7 +833,7 @@ proxy-groups:
 - name: Singapore
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 新加坡 TotoroCloud-01
   - 新加坡 TotoroCloud-02
@@ -853,7 +853,7 @@ proxy-groups:
 - name: Japan
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 日本 TotoroCloud-01
   - 日本 TotoroCloud-02
@@ -873,7 +873,7 @@ proxy-groups:
 - name: USA
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 美国 TotoroCloud-01
   - 美国 TotoroCloud-02
@@ -893,7 +893,7 @@ proxy-groups:
 - name: Malaysia
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 马来西亚 TotoroCloud-01
   - 马来西亚 TotoroCloud-02
@@ -903,7 +903,7 @@ proxy-groups:
 - name: Australia
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 澳大利亚 RealNode-AU01
   - 澳大利亚 RealNode-AU02
@@ -911,38 +911,38 @@ proxy-groups:
 - name: Turkey
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 土耳其 TotoroCloud-01
   - 土耳其 RealNode-TR01
 - name: Korea
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 韩国 RealNode-KR01
 - name: Germany
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 德国 RealNode-DE01
 - name: UK
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 英国 RealNode-GB01
 - name: Canada
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 加拿大 RealNode-CA01
 - name: India
   type: url-test
   url: http://www.gstatic.com/generate_204
-  interval: 43200
+  interval: 300
   proxies:
   - 印度 RealNode-IN01
 
