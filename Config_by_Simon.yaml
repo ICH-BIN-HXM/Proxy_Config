@@ -429,54 +429,54 @@ proxies:
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
 - name: 马来西亚 TotoroCloud-01
-  type: ss
-  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
-  port: 50066
-  cipher: aes-128-gcm
+  type: trojan
+  server: lmnode-ixd3fh2v5uq1v3z-lmmy.lma1b2.com
+  port: 53466
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
+  skip-cert-verify: true
 - name: 马来西亚 TotoroCloud-02
-  type: ss
-  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
-  port: 50067
-  cipher: aes-128-gcm
+  type: trojan
+  server: lmnode-ixd3fh2v5uq1v3z-lmmy.lma1b2.com
+  port: 53467
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
+  skip-cert-verify: true
 - name: 马来西亚 TotoroCloud-03
-  type: ss
-  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
-  port: 50068
-  cipher: aes-128-gcm
+  type: trojan
+  server: lmnode-ixd3fh2v5uq1v3z-lmmy.lma1b2.com
+  port: 53468
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
+  skip-cert-verify: true
 - name: 马来西亚 TotoroCloud-04
-  type: ss
-  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
-  port: 50069
-  cipher: aes-128-gcm
+  type: trojan
+  server: lmnode-ixd3fh2v5uq1v3z-lmmy.lma1b2.com
+  port: 53469
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
+  skip-cert-verify: true
 - name: 马来西亚 TotoroCloud-05
-  type: ss
-  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmmy.lma1b2.com
-  port: 50070
-  cipher: aes-128-gcm
+  type: trojan
+  server: lmnode-ixd3fh2v5uq1v3z-lmmy.lma1b2.com
+  port: 53470
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
+  skip-cert-verify: true
 - name: 土耳其 TotoroCloud-01
-  type: ss
-  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmtr.lma1b2.com
-  port: 50096
-  cipher: aes-128-gcm
+  type: trojan
+  server: lmnode-ixd3fh2v5uq1v3z-lmtr.lma1b2.com
+  port: 53496
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
+  skip-cert-verify: true
 - name: 阿根廷 TotoroCloud-01
-  type: ss
-  server: lmnode-4cd5b5a1.ixd3fh2v5uqlv3z-lmar.lma1b2.com
-  port: 50098
-  cipher: aes-128-gcm
+  type: trojan
+  server: lmnode-ixd3fh2v5uq1v3z-lmar.lma1b2.com
+  port: 53498
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
+  skip-cert-verify: true
 # RealNode
 - name: 香港 RealNode-HK01
   type: vmess
@@ -488,7 +488,7 @@ proxies:
   udp: true
 - name: 香港 RealNode-HK02
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31000
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -536,7 +536,7 @@ proxies:
   udp: true
 - name: 日本 RealNode-JP03｜ChatGPT
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31003
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -568,7 +568,7 @@ proxies:
   udp: true
 - name: 台湾 RealNode-TW02｜ChatGPT
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31015
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -608,7 +608,7 @@ proxies:
   udp: true
 - name: 新加坡 RealNode-SG03
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31006
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -632,7 +632,7 @@ proxies:
   udp: true
 - name: 美国 RealNode-US01｜ChatGPT
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31014
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -648,7 +648,7 @@ proxies:
   udp: true
 - name: 美国 RealNode-US03
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31009
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -672,7 +672,7 @@ proxies:
   udp: true
 - name: 澳大利亚 RealNode-AU01
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31013
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -688,7 +688,7 @@ proxies:
   udp: true
 - name: 澳大利亚 RealNode-AU03
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31013
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -696,7 +696,7 @@ proxies:
   udp: true
 - name: 土耳其 RealNode-TR01
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31016
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -704,7 +704,7 @@ proxies:
   udp: true
 - name: 韩国 RealNode-KR01
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31017
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -712,7 +712,7 @@ proxies:
   udp: true
 - name: 德国 RealNode-DE01
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31018
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -720,7 +720,7 @@ proxies:
   udp: true
 - name: 英国 RealNode-GB01
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31019
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -728,7 +728,7 @@ proxies:
   udp: true
 - name: 加拿大 RealNode-CA01
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31020
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
@@ -736,7 +736,7 @@ proxies:
   udp: true
 - name: 印度 RealNode-IN01
   type: vmess
-  server: 120.241.177.77
+  server: 183.240.228.132
   port: 31021
   uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
   alterId: 0
