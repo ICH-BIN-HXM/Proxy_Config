@@ -781,6 +781,26 @@ proxy-groups:
     - Japan
     - India
     - Turkey
+
+- name: Fastest-Select
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 600
+  proxies:
+    - Germany
+    - UK
+    - Australia
+    - Korea
+    - Taiwan
+    - USA
+    - Canada
+    - Malaysia
+    - Singapore
+    - Hongkong
+    - Japan
+    - India
+    - Turkey
+
 - name: Hongkong
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1057,7 +1077,7 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,zconnect,DIRECT
-  - RULE-SET,tailscale,Singapore
+  - RULE-SET,tailscale,Fastest-Select
   - RULE-SET,applications,DIRECT
   - RULE-SET,private,DIRECT
   # - RULE-SET,reject,REJECT
