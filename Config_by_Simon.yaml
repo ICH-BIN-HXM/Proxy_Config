@@ -1077,20 +1077,20 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,zconnect,DIRECT
-  - RULE-SET,tailscale,Fastest-Select
-  - RULE-SET,applications,DIRECT
-  - RULE-SET,private,DIRECT
-  # - RULE-SET,reject,REJECT
+  # - RULE-SET,tailscale,Fastest-Select
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,private,DIRECT
   - RULE-SET,direct,DIRECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - RULE-SET,google,Manual-Select
-  - RULE-SET,proxy,Manual-Select
   - RULE-SET,telegramcidr,Manual-Select
+  - RULE-SET,proxy,Manual-Select
+  # - RULE-SET,reject,REJECT
   - MATCH,Manual-Select
 
   # - DOMAIN,clash.razord.top,DIRECT
