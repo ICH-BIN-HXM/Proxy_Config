@@ -1077,7 +1077,7 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,zconnect,DIRECT
-  # - RULE-SET,tailscale,Fastest-Select
+  - PROCESS-NAME,tailscaled,DIRECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,applications,DIRECT
