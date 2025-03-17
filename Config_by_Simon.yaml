@@ -477,8 +477,10 @@ proxies:
   password: 74ec673f-7cc9-49b6-9105-68ee11074aa6
   udp: true
   skip-cert-verify: true
+
 # RealNode
-- name: 香港 RealNode-HK01
+## HongKong
+- name: RealNode_HK_01
   type: vmess
   server: cm.guguyun.pw
   port: 31000
@@ -486,7 +488,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 香港 RealNode-HK02
+- name: RealNode_HK_02
   type: vmess
   server: 183.240.228.132
   port: 31000
@@ -494,7 +496,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 香港 RealNode-HK03
+- name: RealNode_HK_03
   type: vmess
   server: cm2.xcone.xyz
   port: 29782
@@ -502,7 +504,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 香港 RealNode-HK04
+- name: RealNode_HK_04
   type: vmess
   server: ct2.xcone.xyz
   port: 29020
@@ -510,7 +512,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 香港 RealNode-HK05
+- name: RealNode_HK_05
   type: vmess
   server: cm.guguyun.pw
   port: 31000
@@ -518,7 +520,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 日本 RealNode-JP01｜ChatGPT
+## Japan
+- name: RealNode_JP_01
   type: vmess
   server: cm.guguyun.pw
   port: 32000
@@ -526,7 +529,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 日本 RealNode-JP02｜ChatGPT
+- name: RealNode_JP_02
   type: vmess
   server: cm2.xcone.xyz
   port: 25261
@@ -534,7 +537,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 日本 RealNode-JP03｜ChatGPT
+- name: RealNode_JP_03
   type: vmess
   server: 183.240.228.132
   port: 31003
@@ -542,7 +545,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 日本 RealNode-JP04｜ChatGPT
+- name: RealNode_JP_04
   type: vmess
   server: ct2.xcone.xyz
   port: 21062
@@ -550,7 +553,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 日本 RealNode-JP05｜ChatGPT
+- name: RealNode_JP_05
   type: vmess
   server: cm.guguyun.pw
   port: 32000
@@ -558,7 +561,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 台湾 RealNode-TW01｜ChatGPT
+## Taiwan
+- name: RealNode_TW_01
   type: vmess
   server: cm.guguyun.pw
   port: 31015
@@ -566,7 +570,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 台湾 RealNode-TW02｜ChatGPT
+- name: RealNode_TW_02
   type: vmess
   server: 183.240.228.132
   port: 31015
@@ -574,7 +578,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 台湾 RealNode-TW03｜ChatGPT
+- name: RealNode_TW_03
   type: vmess
   server: cm2.xcone.xyz
   port: 43792
@@ -582,7 +586,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 台湾 RealNode-TW04｜ChatGPT
+- name: RealNode_TW_04
   type: vmess
   server: ct2.xcone.xyz
   port: 56146
@@ -590,7 +594,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 新加坡 RealNode-SG01
+## Singapore
+- name: RealNode_SG_01
   type: vmess
   server: cm.guguyun.pw
   port: 32002
@@ -598,7 +603,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 新加坡 RealNode-SG02
+- name: RealNode_SG_02
   type: vmess
   server: cm2.xcone.xyz
   port: 42472
@@ -606,7 +611,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 新加坡 RealNode-SG03
+- name: RealNode_SG_03
   type: vmess
   server: 183.240.228.132
   port: 31006
@@ -614,7 +619,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 新加坡 RealNode-SG04
+- name: RealNode_SG_04
   type: vmess
   server: ct2.xcone.xyz
   port: 22030
@@ -622,7 +627,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 新加坡 RealNode-SG05
+- name: RealNode_SG_05
   type: vmess
   server: cm.guguyun.pw
   port: 32002
@@ -630,7 +635,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 美国 RealNode-US01｜ChatGPT
+## USA
+- name: RealNode_US_01
   type: vmess
   server: 183.240.228.132
   port: 31014
@@ -638,7 +644,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 美国 RealNode-US02
+- name: RealNode_US_02
   type: vmess
   server: cm2.xcone.xyz
   port: 37687
@@ -646,7 +652,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 美国 RealNode-US03
+- name: RealNode_US_03
   type: vmess
   server: 183.240.228.132
   port: 31009
@@ -654,7 +660,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 美国 RealNode-US04
+- name: RealNode_US_04
   type: vmess
   server: cm.guguyun.pw
   port: 32005
@@ -662,7 +668,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 美国 RealNode-US05
+- name: RealNode_US_05
   type: vmess
   server: ct2.xcone.xyz
   port: 27693
@@ -670,7 +676,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 澳大利亚 RealNode-AU01
+## Australia
+- name: RealNode_AU_01
   type: vmess
   server: 183.240.228.132
   port: 31013
@@ -678,7 +685,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 澳大利亚 RealNode-AU02
+- name: RealNode_AU_02
   type: vmess
   server: cm.guguyun.pw
   port: 31013
@@ -686,7 +693,7 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 澳大利亚 RealNode-AU03
+- name: RealNode_AU_03
   type: vmess
   server: 183.240.228.132
   port: 31013
@@ -694,7 +701,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 土耳其 RealNode-TR01
+## Turkey
+- name: RealNode_TR_01
   type: vmess
   server: 183.240.228.132
   port: 31016
@@ -702,7 +710,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 韩国 RealNode-KR01
+## Korea
+- name: RealNode_KR_01
   type: vmess
   server: 183.240.228.132
   port: 31017
@@ -710,7 +719,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 德国 RealNode-DE01
+## Germany
+- name: RealNode_DE_01
   type: vmess
   server: 183.240.228.132
   port: 31018
@@ -718,7 +728,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 英国 RealNode-GB01
+## UK
+- name: RealNode_UK_01
   type: vmess
   server: 183.240.228.132
   port: 31019
@@ -726,7 +737,8 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 加拿大 RealNode-CA01
+## Canada
+- name: RealNode_CA_01
   type: vmess
   server: 183.240.228.132
   port: 31020
@@ -734,14 +746,558 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-- name: 印度 RealNode-IN01
+
+# MGJC
+## HongKong
+- name: MGJC_HK_01
   type: vmess
-  server: 183.240.228.132
-  port: 31021
-  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
+  server: 01.loves.pw
+  port: 28323
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
   alterId: 0
   cipher: auto
   udp: true
+  network: null
+- name: MGJC_HK_02
+  type: vmess
+  server: 02.loves.pw
+  port: 28323
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_HK_03
+  type: vmess
+  server: 03.loves.pw
+  port: 28323
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_HK_04
+  type: vmess
+  server: 04.loves.pw
+  port: 28323
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_HK_05
+  type: vmess
+  server: 05.loves.pw
+  port: 28323
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_HK_06
+  type: vmess
+  server: 06.loves.pw
+  port: 28323
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## Japan
+- name: MGJC_JP_01
+  type: vmess
+  server: 01.loves.pw
+  port: 18290
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_JP_02
+  type: vmess
+  server: 02.loves.pw
+  port: 18290
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_JP_03
+  type: vmess
+  server: 03.loves.pw
+  port: 18290
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_JP_04
+  type: vmess
+  server: 04.loves.pw
+  port: 18290
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_JP_05
+  type: vmess
+  server: 05.loves.pw
+  port: 18290
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_JP_06
+  type: vmess
+  server: 06.loves.pw
+  port: 18290
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## Singapore
+- name: MGJC_SG_01
+  type: vmess
+  server: 01.loves.pw
+  port: 11269
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_SG_02
+  type: vmess
+  server: 02.loves.pw
+  port: 11269
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_SG_03
+  type: vmess
+  server: 03.loves.pw
+  port: 11269
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_SG_04
+  type: vmess
+  server: 04.loves.pw
+  port: 11269
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_SG_05
+  type: vmess
+  server: 05.loves.pw
+  port: 11269
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_SG_06
+  type: vmess
+  server: 06.loves.pw
+  port: 11269
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## Taiwan
+- name: MGJC_TW_01
+  type: vmess
+  server: 01.loves.pw
+  port: 36135
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_TW_02
+  type: vmess
+  server: 02.loves.pw
+  port: 36135
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_TW_03
+  type: vmess
+  server: 03.loves.pw
+  port: 36135
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_TW_04
+  type: vmess
+  server: 04.loves.pw
+  port: 36135
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_TW_05
+  type: vmess
+  server: 05.loves.pw
+  port: 36135
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_TW_06
+  type: vmess
+  server: 06.loves.pw
+  port: 36135
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## Korea
+- name: MGJC_KR_01
+  type: vmess
+  server: 01.loves.pw
+  port: 48639
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_KR_02
+  type: vmess
+  server: 02.loves.pw
+  port: 48639
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_KR_03
+  type: vmess
+  server: 03.loves.pw
+  port: 48639
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_KR_04
+  type: vmess
+  server: 04.loves.pw
+  port: 48639
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_KR_05
+  type: vmess
+  server: 05.loves.pw
+  port: 48639
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_KR_06
+  type: vmess
+  server: 06.loves.pw
+  port: 48639
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## USA
+- name: MGJC_US_01
+  type: vmess
+  server: 01.loves.pw
+  port: 14240
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_US_02
+  type: vmess
+  server: 02.loves.pw
+  port: 14240
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_US_03
+  type: vmess
+  server: 03.loves.pw
+  port: 14240
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_US_04
+  type: vmess
+  server: 04.loves.pw
+  port: 14240
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_US_05
+  type: vmess
+  server: 05.loves.pw
+  port: 14240
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_US_06
+  type: vmess
+  server: 06.loves.pw
+  port: 14240
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## Russia
+- name: MGJC_RU_01
+  type: vmess
+  server: 01.loves.pw
+  port: 57568
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_RU_02
+  type: vmess
+  server: 02.loves.pw
+  port: 57568
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_RU_03
+  type: vmess
+  server: 03.loves.pw
+  port: 57568
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_RU_04
+  type: vmess
+  server: 04.loves.pw
+  port: 57568
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_RU_05
+  type: vmess
+  server: 05.loves.pw
+  port: 57568
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_RU_06
+  type: vmess
+  server: 06.loves.pw
+  port: 57568
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## UK
+- name: MGJC_UK_01
+  type: vmess
+  server: 01.loves.pw
+  port: 53383
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_UK_02
+  type: vmess
+  server: 02.loves.pw
+  port: 53383
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_UK_03
+  type: vmess
+  server: 03.loves.pw
+  port: 53383
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_UK_04
+  type: vmess
+  server: 04.loves.pw
+  port: 53383
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_UK_05
+  type: vmess
+  server: 05.loves.pw
+  port: 53383
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_UK_06
+  type: vmess
+  server: 06.loves.pw
+  port: 53383
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## France
+- name: MGJC_FR_01
+  type: vmess
+  server: 01.loves.pw
+  port: 56037
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_FR_02
+  type: vmess
+  server: 02.loves.pw
+  port: 56037
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_FR_03
+  type: vmess
+  server: 03.loves.pw
+  port: 56037
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_FR_04
+  type: vmess
+  server: 04.loves.pw
+  port: 56037
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_FR_05
+  type: vmess
+  server: 05.loves.pw
+  port: 56037
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_FR_06
+  type: vmess
+  server: 06.loves.pw
+  port: 56037
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+## Germany
+- name: MGJC_DE_01
+  type: vmess
+  server: 01.loves.pw
+  port: 52263
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_DE_02
+  type: vmess
+  server: 02.loves.pw
+  port: 52263
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_DE_03
+  type: vmess
+  server: 03.loves.pw
+  port: 52263
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_DE_04
+  type: vmess
+  server: 04.loves.pw
+  port: 52263
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_DE_05
+  type: vmess
+  server: 05.loves.pw
+  port: 52263
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
+- name: MGJC_DE_06
+  type: vmess
+  server: 06.loves.pw
+  port: 52263
+  uuid: ff336793-f8ac-436d-b873-b06587f53af1
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: null
 
 proxy-groups:
 - name: Manual-Select
@@ -749,18 +1305,17 @@ proxy-groups:
   proxies:
     - Auto-Select
     - Germany
+    - France
     - UK
     - Australia
     - Korea
     - Taiwan
+    - Turkey
     - USA
     - Canada
-    - Malaysia
     - Singapore
     - Hongkong
     - Japan
-    - India
-    - Turkey
     
 - name: Auto-Select
   type: fallback
@@ -769,18 +1324,17 @@ proxy-groups:
   interval: 600
   proxies:
     - Germany
+    - France
     - UK
     - Australia
     - Korea
     - Taiwan
+    - Turkey
     - USA
     - Canada
-    - Malaysia
     - Singapore
     - Hongkong
     - Japan
-    - India
-    - Turkey
 
 - name: Fastest-Select
   type: url-test
@@ -788,184 +1342,225 @@ proxy-groups:
   interval: 600
   proxies:
     - Germany
+    - France
     - UK
     - Australia
     - Korea
     - Taiwan
+    - Turkey
     - USA
     - Canada
-    - Malaysia
     - Singapore
     - Hongkong
     - Japan
-    - India
-    - Turkey
 
 - name: Hongkong
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 香港 TotoroCloud-01
-  - 香港 TotoroCloud-02
-  - 香港 TotoroCloud-03
-  - 香港 TotoroCloud-04
-  - 香港 TotoroCloud-05
-  - 香港 TotoroCloud-06
-  - 香港 TotoroCloud-07
-  - 香港 TotoroCloud-08
-  - 香港 TotoroCloud-09
-  - 香港 TotoroCloud-10
-  - 香港 TotoroCloud-11
-  - 香港 TotoroCloud-12
-  - 香港 TotoroCloud-13
-  - 香港 TotoroCloud-14
-  - 香港 TotoroCloud-15
-  - 香港 TotoroCloud-16
-  - 香港 TotoroCloud-17
-  - 香港 TotoroCloud-18
-  - 香港 TotoroCloud-19
-  - 香港 TotoroCloud-20
-  - 香港 RealNode-HK01
-  - 香港 RealNode-HK02
-  - 香港 RealNode-HK03
-  - 香港 RealNode-HK04
-  - 香港 RealNode-HK05
+  # - 香港 TotoroCloud-01
+  # - 香港 TotoroCloud-02
+  # - 香港 TotoroCloud-03
+  # - 香港 TotoroCloud-04
+  # - 香港 TotoroCloud-05
+  # - 香港 TotoroCloud-06
+  # - 香港 TotoroCloud-07
+  # - 香港 TotoroCloud-08
+  # - 香港 TotoroCloud-09
+  # - 香港 TotoroCloud-10
+  # - 香港 TotoroCloud-11
+  # - 香港 TotoroCloud-12
+  # - 香港 TotoroCloud-13
+  # - 香港 TotoroCloud-14
+  # - 香港 TotoroCloud-15
+  # - 香港 TotoroCloud-16
+  # - 香港 TotoroCloud-17
+  # - 香港 TotoroCloud-18
+  # - 香港 TotoroCloud-19
+  # - 香港 TotoroCloud-20
+  - RealNode_HK_01
+  - RealNode_HK_02
+  - RealNode_HK_03
+  - RealNode_HK_04
+  - RealNode_HK_05
+  - MGJC_HK_01
+  - MGJC_HK_02
+  - MGJC_HK_03
+  - MGJC_HK_04
+  - MGJC_HK_05
+  - MGJC_HK_06
 - name: Taiwan
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 台湾 TotoroCloud-01
-  - 台湾 TotoroCloud-02
-  - 台湾 TotoroCloud-03
-  - 台湾 TotoroCloud-04
-  - 台湾 TotoroCloud-05
-  - 台湾 TotoroCloud-06
-  - 台湾 TotoroCloud-07
-  - 台湾 TotoroCloud-08
-  - 台湾 TotoroCloud-09
-  - 台湾 TotoroCloud-10
-  - 台湾 RealNode-TW01｜ChatGPT
-  - 台湾 RealNode-TW02｜ChatGPT
-  - 台湾 RealNode-TW03｜ChatGPT
-  - 台湾 RealNode-TW04｜ChatGPT
+  # - 台湾 TotoroCloud-01
+  # - 台湾 TotoroCloud-02
+  # - 台湾 TotoroCloud-03
+  # - 台湾 TotoroCloud-04
+  # - 台湾 TotoroCloud-05
+  # - 台湾 TotoroCloud-06
+  # - 台湾 TotoroCloud-07
+  # - 台湾 TotoroCloud-08
+  # - 台湾 TotoroCloud-09
+  # - 台湾 TotoroCloud-10
+  - RealNode_TW_01
+  - RealNode_TW_02
+  - RealNode_TW_03
+  - RealNode_TW_04
+  - MGJC_TW_01
+  - MGJC_TW_02
+  - MGJC_TW_03
+  - MGJC_TW_04
+  - MGJC_TW_05
+  - MGJC_TW_06
 - name: Singapore
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 新加坡 TotoroCloud-01
-  - 新加坡 TotoroCloud-02
-  - 新加坡 TotoroCloud-03
-  - 新加坡 TotoroCloud-04
-  - 新加坡 TotoroCloud-05
-  - 新加坡 TotoroCloud-06
-  - 新加坡 TotoroCloud-07
-  - 新加坡 TotoroCloud-08
-  - 新加坡 TotoroCloud-09
-  - 新加坡 TotoroCloud-10
-  - 新加坡 RealNode-SG01
-  - 新加坡 RealNode-SG02
-  - 新加坡 RealNode-SG03
-  - 新加坡 RealNode-SG04
-  - 新加坡 RealNode-SG05
+  # - 新加坡 TotoroCloud-01
+  # - 新加坡 TotoroCloud-02
+  # - 新加坡 TotoroCloud-03
+  # - 新加坡 TotoroCloud-04
+  # - 新加坡 TotoroCloud-05
+  # - 新加坡 TotoroCloud-06
+  # - 新加坡 TotoroCloud-07
+  # - 新加坡 TotoroCloud-08
+  # - 新加坡 TotoroCloud-09
+  # - 新加坡 TotoroCloud-10
+  - RealNode_SG_01
+  - RealNode_SG_02
+  - RealNode_SG_03
+  - RealNode_SG_04
+  - RealNode_SG_05
+  - MGJC_SG_01
+  - MGJC_SG_02
+  - MGJC_SG_03
+  - MGJC_SG_04
+  - MGJC_SG_05
+  - MGJC_SG_06
 - name: Japan
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 日本 TotoroCloud-01
-  - 日本 TotoroCloud-02
-  - 日本 TotoroCloud-03
-  - 日本 TotoroCloud-04
-  - 日本 TotoroCloud-05
-  - 日本 TotoroCloud-06
-  - 日本 TotoroCloud-07
-  - 日本 TotoroCloud-08
-  - 日本 TotoroCloud-09
-  - 日本 TotoroCloud-10
-  - 日本 RealNode-JP01｜ChatGPT
-  - 日本 RealNode-JP02｜ChatGPT
-  - 日本 RealNode-JP03｜ChatGPT
-  - 日本 RealNode-JP04｜ChatGPT
-  - 日本 RealNode-JP05｜ChatGPT
+  # - 日本 TotoroCloud-01
+  # - 日本 TotoroCloud-02
+  # - 日本 TotoroCloud-03
+  # - 日本 TotoroCloud-04
+  # - 日本 TotoroCloud-05
+  # - 日本 TotoroCloud-06
+  # - 日本 TotoroCloud-07
+  # - 日本 TotoroCloud-08
+  # - 日本 TotoroCloud-09
+  # - 日本 TotoroCloud-10
+  - RealNode_JP_01
+  - RealNode_JP_02
+  - RealNode_JP_03
+  - RealNode_JP_04
+  - RealNode_JP_05
+  - MGJC_JP_01
+  - MGJC_JP_02
+  - MGJC_JP_03
+  - MGJC_JP_04
+  - MGJC_JP_05
+  - MGJC_JP_06
 - name: USA
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 美国 TotoroCloud-01
-  - 美国 TotoroCloud-02
-  - 美国 TotoroCloud-03
-  - 美国 TotoroCloud-04
-  - 美国 TotoroCloud-05
-  - 美国 TotoroCloud-06
-  - 美国 TotoroCloud-07
-  - 美国 TotoroCloud-08
-  - 美国 TotoroCloud-09
-  - 美国 TotoroCloud-10
-  - 美国 RealNode-US01｜ChatGPT
-  - 美国 RealNode-US02
-  - 美国 RealNode-US03
-  - 美国 RealNode-US04
-  - 美国 RealNode-US05
-- name: Malaysia
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  proxies:
-  - 马来西亚 TotoroCloud-01
-  - 马来西亚 TotoroCloud-02
-  - 马来西亚 TotoroCloud-03
-  - 马来西亚 TotoroCloud-04
-  - 马来西亚 TotoroCloud-05
+  # - 美国 TotoroCloud-01
+  # - 美国 TotoroCloud-02
+  # - 美国 TotoroCloud-03
+  # - 美国 TotoroCloud-04
+  # - 美国 TotoroCloud-05
+  # - 美国 TotoroCloud-06
+  # - 美国 TotoroCloud-07
+  # - 美国 TotoroCloud-08
+  # - 美国 TotoroCloud-09
+  # - 美国 TotoroCloud-10
+  - RealNode_US_01
+  - RealNode_US_02
+  - RealNode_US_03
+  - RealNode_US_04
+  - RealNode_US_05
+  - MGJC_US_01
+  - MGJC_US_02
+  - MGJC_US_03
+  - MGJC_US_04
+  - MGJC_US_05
+  - MGJC_US_06
 - name: Australia
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 澳大利亚 RealNode-AU01
-  - 澳大利亚 RealNode-AU02
-  - 澳大利亚 RealNode-AU03
+  - RealNode_AU_01
+  - RealNode_AU_02
+  - RealNode_AU_03
 - name: Turkey
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 土耳其 TotoroCloud-01
-  - 土耳其 RealNode-TR01
+  # - 土耳其 TotoroCloud-01
+  - RealNode_TR_01
 - name: Korea
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 韩国 RealNode-KR01
+  - RealNode_KR_01
+  - MGJC_KR_01
+  - MGJC_KR_02
+  - MGJC_KR_03
+  - MGJC_KR_04
+  - MGJC_KR_05
+  - MGJC_KR_06
 - name: Germany
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 德国 RealNode-DE01
+  - RealNode_DE_01
+  - MGJC_DE_01
+  - MGJC_DE_02
+  - MGJC_DE_03
+  - MGJC_DE_04
+  - MGJC_DE_05
+  - MGJC_DE_06
 - name: UK
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 英国 RealNode-GB01
+  - RealNode_UK_01
+  - MGJC_UK_01
+  - MGJC_UK_02
+  - MGJC_UK_03
+  - MGJC_UK_04
+  - MGJC_UK_05
+  - MGJC_UK_06
+- name: France
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - MGJC_FR_01
+  - MGJC_FR_02
+  - MGJC_FR_03
+  - MGJC_FR_04
+  - MGJC_FR_05
+  - MGJC_FR_06
 - name: Canada
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 加拿大 RealNode-CA01
-- name: India
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  proxies:
-  - 印度 RealNode-IN01
-
+  - RealNode_CA_01
 
 rule-providers:
   reject:
@@ -1077,7 +1672,7 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,zconnect,DIRECT
-  - PROCESS-NAME,tailscaled,Fastest-Select
+  # - PROCESS-NAME,tailscaled,Fastest-Select
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,applications,DIRECT
@@ -1092,21 +1687,3 @@ rules:
   - RULE-SET,proxy,Manual-Select
   # - RULE-SET,reject,REJECT
   - MATCH,Manual-Select
-
-  # - DOMAIN,clash.razord.top,DIRECT
-  # - DOMAIN,yacd.haishan.me,DIRECT
-  # - RULE-SET,applications,DIRECT
-  # - RULE-SET,private,DIRECT
-  # # - RULE-SET,reject,REJECT
-  # - RULE-SET,icloud,DIRECT
-  # - RULE-SET,apple,DIRECT
-  # - RULE-SET,google,Manual-Select
-  # - RULE-SET,proxy,Manual-Select
-  # - RULE-SET,direct,DIRECT
-  # - RULE-SET,lancidr,DIRECT
-  # - RULE-SET,cncidr,DIRECT
-  # - RULE-SET,telegramcidr,Manual-Select
-  # - RULE-SET,zconnect,DIRECT
-  # - GEOIP,LAN,DIRECT
-  # - GEOIP,CN,DIRECT
-  # - MATCH,Manual-Select
