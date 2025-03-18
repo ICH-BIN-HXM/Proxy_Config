@@ -701,15 +701,6 @@ proxies:
   alterId: 0
   cipher: auto
   udp: true
-## Turkey
-- name: RealNode_TR_01
-  type: vmess
-  server: 183.240.228.132
-  port: 31016
-  uuid: 0693fb73-5028-4378-be84-11877e7b6b3c
-  alterId: 0
-  cipher: auto
-  udp: true
 ## Korea
 - name: RealNode_KR_01
   type: vmess
@@ -1078,61 +1069,6 @@ proxies:
   cipher: auto
   udp: true
   network: null
-## Russia
-- name: MGJC_RU_01
-  type: vmess
-  server: 01.loves.pw
-  port: 57568
-  uuid: ff336793-f8ac-436d-b873-b06587f53af1
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: null
-- name: MGJC_RU_02
-  type: vmess
-  server: 02.loves.pw
-  port: 57568
-  uuid: ff336793-f8ac-436d-b873-b06587f53af1
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: null
-- name: MGJC_RU_03
-  type: vmess
-  server: 03.loves.pw
-  port: 57568
-  uuid: ff336793-f8ac-436d-b873-b06587f53af1
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: null
-- name: MGJC_RU_04
-  type: vmess
-  server: 04.loves.pw
-  port: 57568
-  uuid: ff336793-f8ac-436d-b873-b06587f53af1
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: null
-- name: MGJC_RU_05
-  type: vmess
-  server: 05.loves.pw
-  port: 57568
-  uuid: ff336793-f8ac-436d-b873-b06587f53af1
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: null
-- name: MGJC_RU_06
-  type: vmess
-  server: 06.loves.pw
-  port: 57568
-  uuid: ff336793-f8ac-436d-b873-b06587f53af1
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: null
 ## UK
 - name: MGJC_UK_01
   type: vmess
@@ -1304,18 +1240,10 @@ proxy-groups:
   type: select
   proxies:
     - Auto-Select
-    - Germany
-    - France
-    - UK
-    - Australia
-    - Korea
-    - Taiwan
-    - Turkey
-    - USA
-    - Canada
-    - Singapore
-    - Hongkong
-    - Japan
+    - Europe
+    - Oceania
+    - Asia
+    - North-America
     
 - name: Auto-Select
   type: fallback
@@ -1323,18 +1251,10 @@ proxy-groups:
   url: "http://www.gstatic.com/generate_204"
   interval: 600
   proxies:
-    - Germany
-    - France
-    - UK
-    - Australia
-    - Korea
-    - Taiwan
-    - Turkey
-    - USA
-    - Canada
-    - Singapore
-    - Hongkong
-    - Japan
+    - Europe
+    - Oceania
+    - Asia
+    - North-America
 
 - name: Fastest-Select
   type: url-test
@@ -1347,12 +1267,46 @@ proxy-groups:
     - Australia
     - Korea
     - Taiwan
-    - Turkey
-    - USA
-    - Canada
     - Singapore
     - Hongkong
     - Japan
+    - USA
+    - Canada
+
+- name: Europe
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 600
+  proxies:
+    - Germany
+    - France
+    - UK
+
+- name: Oceania
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 600
+  proxies:
+    - Australia
+
+- name: Asia
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 600
+  proxies:
+    - Korea
+    - Taiwan
+    - Singapore
+    - Hongkong
+    - Japan
+
+- name: North-America
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 600
+  proxies:
+    - USA
+    - Canada
 
 - name: Hongkong
   type: url-test
@@ -1501,13 +1455,6 @@ proxy-groups:
   - RealNode_AU_01
   - RealNode_AU_02
   - RealNode_AU_03
-- name: Turkey
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  proxies:
-  # - 土耳其 TotoroCloud-01
-  - RealNode_TR_01
 - name: Korea
   type: url-test
   url: http://www.gstatic.com/generate_204
