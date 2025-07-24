@@ -1,4 +1,4 @@
 payload:
-  - '+.yfsp.tv'
-  - 'huaren.live'
-  - 'trjvod.com'
+  - 'yfsp'
+  - 'huaren'
+  - 'trjvod'
