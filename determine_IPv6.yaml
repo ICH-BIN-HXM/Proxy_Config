@@ -1,0 +1,144 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mode: rule
+allow-lan: true
+log-level: info
+ipv6: false
+external-controller: 0.0.0.0:9090
+secret: ''
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:53
+  fake-ip-filter:
+    # Reference 1: https://teapotium.com/2024/11/clash-dns-running-features/ 
+    # Reference 2: https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/config/mihomo/config.yaml 
+    - "+.lan"
+    - "+.local"
+    - localhost.ptlogin2.qq.com
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*.*.*
+    - lens.l.google.com
+    - '*.n.n.srv.nintendo.net'
+    - +.stun.playstation.net
+    - xbox.*.*.microsoft.com
+    - '*.*.xboxlive.com'
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    - '*.mcdn.bilivideo.cn'
+    - "time.*.com"
+    - "+.market.xiaomi.com"
+    - WORKGROUP 
+  default-nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+  nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+    - tls://dns.rubyfish.cn:853 # DNS over TLS
+    - https://1.1.1.1/dns-query # DNS over HTTPS
+    - dhcp://en0
+
+proxies:
+# FlowerCloud
+- {name: FlowerCloud | HK | Experimental | 01 | 0.2x, server: gzdata1.233netcloud.com, port: 10012, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 464720867a.m.ctrip.com}, udp: true}
+- {name: FlowerCloud | JP | Experimental | 01 | 0.2x, server: shdata1.233netcloud.com, port: 10022, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 464720867a.m.ctrip.com}, udp: true}
+- {name: FlowerCloud | SG | Experimental | 01 | 0.2x, server: gzdata1.233netcloud.com, port: 10032, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 464720867a.m.ctrip.com}, udp: true}
+- {name: FlowerCloud | US | Experimental | 01 | 0.2x, server: shdata1.233netcloud.com, port: 10052, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 464720867a.m.ctrip.com}, udp: true}
+# LiangXinYun
+## Hongkong
+- { name: LiangXinYun | HK | 01 | 1x | IPv4, type: vless, server: aws-link1.liangxin1.xyz, port: 35248, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.hk, reality-opts: { public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc, short-id: c8c0f951 } }
+- { name: LiangXinYun | HK | 01 | 1x | IPv6, type: vless, server: 2406:da1e:71f:9a00:38d4:5d3c:77a1:f5de, port: 35248, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.hk, reality-opts: { public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc, short-id: c8c0f951 } }
+- { name: LiangXinYun | HK | 02 | 1x | IPv4, type: vless, server: aws-link2.liangxin1.xyz, port: 32725, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: osxapps.itunes.apple.com, reality-opts: { public-key: IdgzmrHX6nbZEVjox3WcxBE07DwXE9YIa8ZyYZuMWEw, short-id: 784cf058 } }
+- { name: LiangXinYun | HK | 02 | 1x | IPv6, type: vless, server: 2406:da1e:ed4:1500:bad9:3608:29a:f839, port: 32725, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: osxapps.itunes.apple.com, reality-opts: { public-key: IdgzmrHX6nbZEVjox3WcxBE07DwXE9YIa8ZyYZuMWEw, short-id: 784cf058 } }
+- { name: LiangXinYun | HK | 03 | 1x | IPv4, type: vless, server: aws-link3.liangxin1.xyz, port: 24758, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: osxapps.itunes.apple.com, reality-opts: { public-key: o59R2PjAsu1h4KcFjK-EDGP41N2PHZL_Pgk64UcFxh0, short-id: a6d87a12 } }
+- { name: LiangXinYun | HK | 03 | 1x | IPv6, type: vless, server: 2406:da1e:bc2:800:18e2:97d1:c7cc:1b28, port: 24758, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: osxapps.itunes.apple.com, reality-opts: { public-key: o59R2PjAsu1h4KcFjK-EDGP41N2PHZL_Pgk64UcFxh0, short-id: a6d87a12 } }
+- { name: LiangXinYun | HK | 04 | 1x | IPv4, server: aws-linkhy2.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.tesla.cn, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+- { name: LiangXinYun | HK | 05 | 1x | IPv4, server: aws-linkhy3.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.teslamotors.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+## Singapore
+- { name: LiangXinYun | SG | 01 | 1x | IPv4, type: vless, server: aws-link7.liangxin1.xyz, port: 48574, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.sg, reality-opts: { public-key: lmxSayN8tUg2Dag2MPXrdqZ2SQK9K3OjlaKk8wVCRnc, short-id: f8f18902 } }
+- { name: LiangXinYun | SG | 01 | 1x | IPv6, type: vless, server: 2406:da18:790:b500:a983:78aa:4a15:4bb8, port: 48574, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.sg, reality-opts: { public-key: lmxSayN8tUg2Dag2MPXrdqZ2SQK9K3OjlaKk8wVCRnc, short-id: f8f18902 } }
+- { name: LiangXinYun | SG | 02 | 1x | IPv4, type: vless, server: aws-link8.liangxin1.xyz, port: 39645, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: iosapps.itunes.apple.com, reality-opts: { public-key: x7VqpFP7_PrY4ebNw8hi8Ec5Tm5Upmt5JOdrN1M9VnQ, short-id: 2b3b0b93 } }
+- { name: LiangXinYun | SG | 02 | 1x | IPv6, type: vless, server: 2406:da18:a68:2900:c1d6:a21f:44c8:9443, port: 39645, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: iosapps.itunes.apple.com, reality-opts: { public-key: x7VqpFP7_PrY4ebNw8hi8Ec5Tm5Upmt5JOdrN1M9VnQ, short-id: 2b3b0b93 } }
+- { name: LiangXinYun | SG | 03 | 1x | IPv4, type: vless, server: aws-link9.liangxin1.xyz, port: 23587, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: iosapps.itunes.apple.com, reality-opts: { public-key: H66PLLf6HkZwHk4oFqisfTawIvw2cxkEwk8Ue8sHZgA, short-id: 19b580ae } }
+- { name: LiangXinYun | SG | 03 | 1x | IPv6, type: vless, server: 2406:da18:a68:2900:c1d6:a21f:44c8:9443, port: 23587, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: iosapps.itunes.apple.com, reality-opts: { public-key: H66PLLf6HkZwHk4oFqisfTawIvw2cxkEwk8Ue8sHZgA, short-id: 19b580ae } }
+- { name: LiangXinYun | SG | 04 | 1x | IPv4, server: aws-linkhy10.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.teslaautomation.de, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+- { name: LiangXinYun | SG | 05 | 1x | IPv4, server: aws-linkhy11.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.teslaenergy.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+## Japan
+- { name: LiangXinYun | JP | 01 | 1x | IPv4, type: vless, server: aws-link13.liangxin1.xyz, port: 36574, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.apple.com.cn, reality-opts: { public-key: sDG-KQk1BF7V83-xnmrWDouXxpPd_ZSxKcHrJJzbols, short-id: 32a3650d } }
+- { name: LiangXinYun | JP | 01 | 1x | IPv6, type: vless, server: 2406:da14:668:4800:4948:3318:27ee:da69, port: 36574, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.apple.com.cn, reality-opts: { public-key: sDG-KQk1BF7V83-xnmrWDouXxpPd_ZSxKcHrJJzbols, short-id: 32a3650d } }
+- { name: LiangXinYun | JP | 02 | 1x | IPv4, type: vless, server: aws-link14.liangxin1.xyz, port: 25485, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.apple.com.cn, reality-opts: { public-key: VOFSjjWT0wIH3Q0ntyEZd8WwksrIAb5gPt_3PBnEASg, short-id: 9c5b8c53 } }
+- { name: LiangXinYun | JP | 02 | 1x | IPv6, type: vless, server: 2406:da14:1b9c:2e00:aaf8:fb41:d19f:1315, port: 25485, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.apple.com.cn, reality-opts: { public-key: VOFSjjWT0wIH3Q0ntyEZd8WwksrIAb5gPt_3PBnEASg, short-id: 9c5b8c53 } }
+- { name: LiangXinYun | JP | 03 | 1x | IPv4, type: vless, server: aws-link15.liangxin1.xyz, port: 35457, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.apple.com.cn, reality-opts: { public-key: 3gb-aG6qLCJpEOFrEPZ9qKqLvVPA_ovlu0X1PvjcE0k, short-id: 05288db3 } }
+- { name: LiangXinYun | JP | 03 | 1x | IPv6, type: vless, server: 2406:da14:d91:4f00:3617:6206:bb07:949a, port: 35457, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.apple.com.cn, reality-opts: { public-key: 3gb-aG6qLCJpEOFrEPZ9qKqLvVPA_ovlu0X1PvjcE0k, short-id: 05288db3 } }
+- { name: LiangXinYun | JP | 04 | 1x | IPv4, server: aws-linkhy16.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.teslamotors.cn, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+- { name: LiangXinYun | JP | 05 | 1x | IPv4, server: aws-linkhy17.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com.cn, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+## USA
+- { name: LiangXinYun | US | 01 | 1x | IPv4, type: vless, server: 129.146.46.191, port: 443, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: download-porter.hoyoverse.com, reality-opts: { public-key: QE5l0RUqs4OsH3j3u_xHm06-4NlILmQivZUJqiEx11o, short-id: '6314e825' } }
+- { name: LiangXinYun | US | 02 | 1x | IPv4, server: 132.226.117.48, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+- { name: LiangXinYun | US | 03 | 1x | IPv4, server: 129.153.119.42, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+## Korea
+- { name: LiangXinYun | KR | 01 | 1x | IPv4, type: vless, server: aws-link25.liangxin1.xyz, port: 34578, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: download-porter.hoyoverse.com, reality-opts: { public-key: PSn2s5TN4e7n0LkzPunu2IA1hSmOoPYFu3d_psl2Nmc, short-id: e534c8be } }
+- { name: LiangXinYun | KR | 01 | 1x | IPv6, type: vless, server: 2406:da12:75c:8900:f409:673c:de06:d382, port: 34578, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: download-porter.hoyoverse.com, reality-opts: { public-key: PSn2s5TN4e7n0LkzPunu2IA1hSmOoPYFu3d_psl2Nmc, short-id: e534c8be } }
+- { name: LiangXinYun | KR | 02 | 1x | IPv4, type: vless, server: aws-link26.liangxin1.xyz, port: 36872, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: download-porter.hoyoverse.com, reality-opts: { public-key: z53evg6ewSK3gb9bS4KWdgyYU74McOLiRdFqJNpubmQ, short-id: ab9a0409 } }
+- { name: LiangXinYun | KR | 03 | 1x | IPv4, server: aws-linkhy21.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+- { name: LiangXinYun | KR | 04 | 1x | IPv4, server: aws-linkhy22.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+## Australia
+- { name: LiangXinYun | AU | 01 | 1x | IPv4, type: vless, server: aws-link29.liangxin1.xyz, port: 23568, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.hk, reality-opts: { public-key: EjcM-ENrpWY8iIL82qJtQrZgRs4KlVqhdisqLAXonUY, short-id: 55d046dc } }
+- { name: LiangXinYun | AU | 02 | 1x | IPv4, type: vless, server: aws-link29.liangxin1.xyz, port: 23568, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.hk, reality-opts: { public-key: EjcM-ENrpWY8iIL82qJtQrZgRs4KlVqhdisqLAXonUY, short-id: 55d046dc } }
+## UK
+- { name: LiangXinYun | UK | 01 | 1x | IPv4, server: 79.72.81.183, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
+
+proxy-groups:
+- name: Manual-Select
+  type: select
+  proxies:
+    # - FlowerCloud | HK | Experimental | 01 | 0.2x
+    # - FlowerCloud | JP | Experimental | 01 | 0.2x
+    # - FlowerCloud | SG | Experimental | 01 | 0.2x
+    # - FlowerCloud | US | Experimental | 01 | 0.2x
+    - LiangXinYun | HK | 01 | 1x | IPv4
+    - LiangXinYun | HK | 01 | 1x | IPv6
+    - LiangXinYun | HK | 02 | 1x | IPv4
+    - LiangXinYun | HK | 02 | 1x | IPv6
+    - LiangXinYun | HK | 03 | 1x | IPv4
+    - LiangXinYun | HK | 03 | 1x | IPv6
+    - LiangXinYun | HK | 04 | 1x | IPv4
+    - LiangXinYun | HK | 05 | 1x | IPv4
+    - LiangXinYun | SG | 01 | 1x | IPv4
+    - LiangXinYun | SG | 01 | 1x | IPv6
+    - LiangXinYun | SG | 02 | 1x | IPv4
+    - LiangXinYun | SG | 02 | 1x | IPv6
+    - LiangXinYun | SG | 03 | 1x | IPv4
+    - LiangXinYun | SG | 03 | 1x | IPv6
+    - LiangXinYun | SG | 04 | 1x | IPv4
+    - LiangXinYun | SG | 05 | 1x | IPv4
+    - LiangXinYun | JP | 01 | 1x | IPv4
+    - LiangXinYun | JP | 01 | 1x | IPv6
+    - LiangXinYun | JP | 02 | 1x | IPv4
+    - LiangXinYun | JP | 02 | 1x | IPv6
+    - LiangXinYun | JP | 03 | 1x | IPv4
+    - LiangXinYun | JP | 03 | 1x | IPv6
+    - LiangXinYun | JP | 04 | 1x | IPv4
+    - LiangXinYun | JP | 05 | 1x | IPv4
+    - LiangXinYun | US | 01 | 1x | IPv4
+    - LiangXinYun | US | 02 | 1x | IPv4
+    - LiangXinYun | US | 03 | 1x | IPv4
+    - LiangXinYun | KR | 01 | 1x | IPv4
+    - LiangXinYun | KR | 01 | 1x | IPv6
+    - LiangXinYun | KR | 02 | 1x | IPv4
+    - LiangXinYun | KR | 03 | 1x | IPv4
+    - LiangXinYun | KR | 04 | 1x | IPv4
+    - LiangXinYun | AU | 01 | 1x | IPv4
+    - LiangXinYun | AU | 02 | 1x | IPv4
+    - LiangXinYun | UK | 01 | 1x | IPv4
+
+
+
+rules:
+  - DDOMAIN-SUFFIX,test-ipv6.com,Manual-Select
+  - DDOMAIN-SUFFIX,ip.sb.com,Manual-Select
+  - MATCH,DIRECT
