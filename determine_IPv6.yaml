@@ -139,6 +139,7 @@ proxy-groups:
 
 
 rules:
-  - DDOMAIN-SUFFIX,test-ipv6.com,Manual-Select
-  - DDOMAIN-SUFFIX,ip.sb.com,Manual-Select
+  - DOMAIN-SUFFIX,test-ipv6.com,Manual-Select
+  - DOMAIN-SUFFIX,ip.sb.com,Manual-Select
+
   - MATCH,DIRECT
