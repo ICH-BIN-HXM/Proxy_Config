@@ -8,8 +8,8 @@ ipv6: false
 external-controller: 0.0.0.0:9090
 secret: ''
 dns:
-  enable: false
-  ipv6: true
+  enable: true
+  ipv6: false
   listen: 0.0.0.0:53
   fake-ip-filter:
     # Reference 1: https://teapotium.com/2024/11/clash-dns-running-features/ 
