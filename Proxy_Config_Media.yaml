@@ -234,7 +234,7 @@ rule-providers:
   zconnect:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/ICH-BIN-HXM/Proxy_Config@Release/Zspace.txt"
+    url: "https://cdn.jsdelivr.net/gh/ICH-BIN-HXM/Proxy_Config@main/Zspace.txt"
     path: ./ruleset/zconnect.yaml
     interval: 86400
 
