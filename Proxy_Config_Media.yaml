@@ -146,10 +146,10 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-    # - FlowerCloud | HK | Experimental | 01 | 0.2x
-    # - FlowerCloud | JP | Experimental | 01 | 0.2x
-    # - FlowerCloud | SG | Experimental | 01 | 0.2x
-    # - FlowerCloud | US | Experimental | 01 | 0.2x
+    - FlowerCloud | HK | Experimental | 01 | 0.2x
+    - FlowerCloud | JP | Experimental | 01 | 0.2x
+    - FlowerCloud | SG | Experimental | 01 | 0.2x
+    - FlowerCloud | US | Experimental | 01 | 0.2x
 
 
 rule-providers:
@@ -258,11 +258,11 @@ rules:
 
   - RULE-SET,zconnect,DIRECT
 
-  - RULE-SET,icloud,Fastest-Select
-  - RULE-SET,apple,Fastest-Select
-  - RULE-SET,telegramcidr,Fastest-Select
-  - RULE-SET,google,Fastest-Select
-  - RULE-SET,proxy,Fastest-Select
+  - RULE-SET,icloud,Auto-Select
+  - RULE-SET,apple,Auto-Select
+  - RULE-SET,telegramcidr,Auto-Select
+  - RULE-SET,google,Auto-Select
+  - RULE-SET,proxy,Auto-Select
 
   - RULE-SET,applications,DIRECT
   - RULE-SET,private,DIRECT
@@ -275,4 +275,4 @@ rules:
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   
-  - MATCH,Fastest-Select
+  - MATCH,Auto-Select
