@@ -245,11 +245,11 @@ rules:
 
   - RULE-SET,zconnect,DIRECT
 
-  - RULE-SET,icloud,Manual-Select
-  - RULE-SET,apple,Manual-Select
-  - RULE-SET,telegramcidr,Manual-Select
-  - RULE-SET,google,Manual-Select
-  - RULE-SET,proxy,Manual-Select
+  - RULE-SET,icloud,Fastest-Select
+  - RULE-SET,apple,Fastest-Select
+  - RULE-SET,telegramcidr,Fastest-Select
+  - RULE-SET,google,Fastest-Select
+  - RULE-SET,proxy,Fastest-Select
 
   - RULE-SET,applications,DIRECT
   - RULE-SET,private,DIRECT
