@@ -99,7 +99,7 @@ proxy-groups:
   interval: 300
   proxies:
     - LiangXinYun
-    - FlowerCloud
+    - FlowerCloud | Experimental
 
 - name: LiangXinYun
   type: url-test
@@ -141,7 +141,7 @@ proxy-groups:
     - LiangXinYun | AU | 02 | 1x | IPv4
     - LiangXinYun | UK | 01 | 1x | IPv4
 
-- name: FlowerCloud
+- name: FlowerCloud | Experimental
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
