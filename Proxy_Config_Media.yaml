@@ -8,7 +8,7 @@ ipv6: false
 external-controller: 0.0.0.0:9090
 secret: ''
 dns:
-  enable: true
+  enable: false
   ipv6: true
   listen: 0.0.0.0:53
   fake-ip-filter:
@@ -51,7 +51,7 @@ proxies:
 # LiangXinYun
 ## Hongkong
 - { name: LiangXinYun | HK | 01 | 1x | IPv4, type: vless, server: aws-link1.liangxin1.xyz, port: 35248, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.hk, reality-opts: { public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc, short-id: c8c0f951 } }
-- { name: LiangXinYun | HK | 01 | 1x | IPv6, type: vless, server: 2406:da1e:71f:9a00:38d4:5d3c:77a1:f5de, port: 35248, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.hk, reality-opts: { public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc, short-id: c8c0f951 } }
+- { name: LiangXinYun | HK | 01 | 1x | IPv6, type: vless, server: 2406:da1e:d9d:9a00:ae56:ec30:b3aa:a905, port: 35248, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: www.lamer.com.hk, reality-opts: { public-key: IGsSxC0wgn7wLy0NM0QN_yOREDKT_814Y_3_rbgDoTc, short-id: c8c0f951 } }
 - { name: LiangXinYun | HK | 02 | 1x | IPv4, type: vless, server: aws-link2.liangxin1.xyz, port: 32725, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: osxapps.itunes.apple.com, reality-opts: { public-key: IdgzmrHX6nbZEVjox3WcxBE07DwXE9YIa8ZyYZuMWEw, short-id: 784cf058 } }
 - { name: LiangXinYun | HK | 02 | 1x | IPv6, type: vless, server: 2406:da1e:ed4:1500:bad9:3608:29a:f839, port: 32725, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: osxapps.itunes.apple.com, reality-opts: { public-key: IdgzmrHX6nbZEVjox3WcxBE07DwXE9YIa8ZyYZuMWEw, short-id: 784cf058 } }
 - { name: LiangXinYun | HK | 03 | 1x | IPv4, type: vless, server: aws-link3.liangxin1.xyz, port: 24758, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: osxapps.itunes.apple.com, reality-opts: { public-key: o59R2PjAsu1h4KcFjK-EDGP41N2PHZL_Pgk64UcFxh0, short-id: a6d87a12 } }
@@ -82,7 +82,6 @@ proxies:
 - { name: LiangXinYun | US | 03 | 1x | IPv4, server: 129.153.119.42, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
 ## Korea
 - { name: LiangXinYun | KR | 01 | 1x | IPv4, type: vless, server: aws-link25.liangxin1.xyz, port: 34578, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: download-porter.hoyoverse.com, reality-opts: { public-key: PSn2s5TN4e7n0LkzPunu2IA1hSmOoPYFu3d_psl2Nmc, short-id: e534c8be } }
-- { name: LiangXinYun | KR | 01 | 1x | IPv6, type: vless, server: 2406:da12:75c:8900:f409:673c:de06:d382, port: 34578, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: download-porter.hoyoverse.com, reality-opts: { public-key: PSn2s5TN4e7n0LkzPunu2IA1hSmOoPYFu3d_psl2Nmc, short-id: e534c8be } }
 - { name: LiangXinYun | KR | 02 | 1x | IPv4, type: vless, server: aws-link26.liangxin1.xyz, port: 36872, uuid: 202d870c-d9e7-43f5-83d4-8868f0b62a2d, udp: true, tls: true, skip-cert-verify: false, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: download-porter.hoyoverse.com, reality-opts: { public-key: z53evg6ewSK3gb9bS4KWdgyYU74McOLiRdFqJNpubmQ, short-id: ab9a0409 } }
 - { name: LiangXinYun | KR | 03 | 1x | IPv4, server: aws-linkhy21.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
 - { name: LiangXinYun | KR | 04 | 1x | IPv4, server: aws-linkhy22.liangxin1.xyz, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
@@ -93,15 +92,20 @@ proxies:
 - { name: LiangXinYun | UK | 01 | 1x | IPv4, server: 79.72.81.183, port: 30000, ports: 30000-50000, mport: 30000-50000, udp: true, skip-cert-verify: true, sni: www.apple.com, type: hysteria2, password: 202d870c-d9e7-43f5-83d4-8868f0b62a2d }
 
 proxy-groups:
-- name: Fastest-Select
+- name: Auto-Select
+  type: fallback
+  disable-udp: false
+  url: "http://www.gstatic.com/generate_204"
+  interval: 300
+  proxies:
+    - LiangXinYun
+    - FlowerCloud
+
+- name: LiangXinYun
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-    # - FlowerCloud | HK | Experimental | 01 | 0.2x
-    # - FlowerCloud | JP | Experimental | 01 | 0.2x
-    # - FlowerCloud | SG | Experimental | 01 | 0.2x
-    # - FlowerCloud | US | Experimental | 01 | 0.2x
     - LiangXinYun | HK | 01 | 1x | IPv4
     - LiangXinYun | HK | 01 | 1x | IPv6
     - LiangXinYun | HK | 02 | 1x | IPv4
@@ -130,13 +134,22 @@ proxy-groups:
     - LiangXinYun | US | 02 | 1x | IPv4
     - LiangXinYun | US | 03 | 1x | IPv4
     - LiangXinYun | KR | 01 | 1x | IPv4
-    - LiangXinYun | KR | 01 | 1x | IPv6
     - LiangXinYun | KR | 02 | 1x | IPv4
     - LiangXinYun | KR | 03 | 1x | IPv4
     - LiangXinYun | KR | 04 | 1x | IPv4
     - LiangXinYun | AU | 01 | 1x | IPv4
     - LiangXinYun | AU | 02 | 1x | IPv4
     - LiangXinYun | UK | 01 | 1x | IPv4
+
+- name: FlowerCloud
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+    # - FlowerCloud | HK | Experimental | 01 | 0.2x
+    # - FlowerCloud | JP | Experimental | 01 | 0.2x
+    # - FlowerCloud | SG | Experimental | 01 | 0.2x
+    # - FlowerCloud | US | Experimental | 01 | 0.2x
 
 
 rule-providers:
