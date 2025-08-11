@@ -245,6 +245,12 @@ rules:
 
   - RULE-SET,zconnect,DIRECT
 
+  - RULE-SET,icloud,Manual-Select
+  - RULE-SET,apple,Manual-Select
+  - RULE-SET,telegramcidr,Manual-Select
+  - RULE-SET,google,Manual-Select
+  - RULE-SET,proxy,Manual-Select
+
   - RULE-SET,applications,DIRECT
   - RULE-SET,private,DIRECT
   - RULE-SET,direct,DIRECT
