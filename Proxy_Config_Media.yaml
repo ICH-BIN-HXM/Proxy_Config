@@ -105,6 +105,8 @@ proxy-groups:
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
+  tolerance: 50
+  lazy: true
   proxies:
     - LiangXinYun | HK | 01 | 1x | IPv4
     - LiangXinYun | HK | 01 | 1x | IPv6
@@ -145,6 +147,8 @@ proxy-groups:
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
+  tolerance: 50
+  lazy: true
   proxies:
     - FlowerCloud | HK | Experimental | 01 | 0.2x
     - FlowerCloud | JP | Experimental | 01 | 0.2x
