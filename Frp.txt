@@ -1,2 +1,1 @@
-payload:
-  - '+.bf.mmszxc.xin'
+IP-CIDR,91.213.189.84/32,no-resolve
