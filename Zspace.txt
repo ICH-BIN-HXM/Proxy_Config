@@ -1,3 +1,0 @@
-payload:
-  - '+.zconnect.cn'
-  - '+.zenithspace.net'
