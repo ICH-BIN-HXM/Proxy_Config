@@ -2,5 +2,7 @@ payload:
   # LinkCube
   - DOMAIN-SUFFIX,linkcube.dev,DIRECT
   - DOMAIN-SUFFIX,api-linkcube.dev,DIRECT
+  - DOMAIN-SUFFIX,linkcube.com,DIRECT
+  - DOMAIN-SUFFIX,api-linkcube.com,DIRECT
   # LiangXinYun
   - DOMAIN-SUFFIX,liangxin.xyz,DIRECT
