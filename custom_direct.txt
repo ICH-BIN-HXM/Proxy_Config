@@ -12,3 +12,7 @@ payload:
 
   # Domain
   - DOMAIN-SUFFIX,simon-h.top
+
+  # Zspace
+  - DOMAIN-SUFFIX,zconnect.cn
+  - DOMAIN-SUFFIX,zenithspace.net
