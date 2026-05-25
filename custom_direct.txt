@@ -1,3 +1,14 @@
 payload:
   # VPS
   - IP-CIDR,91.213.189.84/32
+
+  # Subscription
+  - DOMAIN-SUFFIX,linkcube.dev
+  - DOMAIN-SUFFIX,api-linkcube.dev
+  - DOMAIN-SUFFIX,linkcube.com
+  - DOMAIN-SUFFIX,api-linkcube.com
+
+  - DOMAIN-SUFFIX,liangxin.xyz
+
+  # Domain
+  - DOMAIN-SUFFIX,simon-h.top
