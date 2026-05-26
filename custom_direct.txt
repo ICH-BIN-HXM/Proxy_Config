@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,api-linkcube.dev
   - DOMAIN-SUFFIX,linkcube.com
   - DOMAIN-SUFFIX,api-linkcube.com
+  - DOMAIN-SUFFIX,tackinessann.xyz
 
   - DOMAIN-SUFFIX,liangxin.xyz
 
