@@ -1,0 +1,19 @@
+payload:
+  # Subscription
+  - DOMAIN-SUFFIX,linkcube.dev
+  - DOMAIN-SUFFIX,api-linkcube.dev
+  - DOMAIN-SUFFIX,linkcube.com
+  - DOMAIN-SUFFIX,api-linkcube.com
+
+  - DOMAIN-SUFFIX,tackinessann.xyz
+  - DOMAIN-SUFFIX,rhmkdu.xyz
+  - DOMAIN-SUFFIX,khzomh.xyz
+
+  - DOMAIN-SUFFIX,liangxin.xyz
+
+  # Domain
+  - DOMAIN-SUFFIX,simon-h.top
+
+  # Zspace
+  - DOMAIN-SUFFIX,zconnect.cn
+  - DOMAIN-SUFFIX,zenithspace.net
