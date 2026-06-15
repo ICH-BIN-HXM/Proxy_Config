@@ -4,6 +4,7 @@ payload:
   - IP-CIDR,212.135.42.96/32
 
   # Subscription
+  - DOMAIN-KEYWORD,linkcube
   - DOMAIN-SUFFIX,linkcube.dev
   - DOMAIN-SUFFIX,api-linkcube.dev
   - DOMAIN-SUFFIX,linkcube.com
